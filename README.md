@@ -1,10 +1,11 @@
 # LiCSBASpatch_AIST_ALOS
 Patch program for LiCSBAS to use AIST ALOS InSAR products (2006-2011)
 
+- [ALOS frame map](https://yumorishita.github.io/gsimaps/#6/36.670180/139.284668/&base=blank&ls=blank%7Copenstreetmap%7Cgeojson_ALOSframeA343_group%7Cgeojson_ALOSframeAothers_group%7Cgeojson_ALOSframeD343_group%7Cgeojson_ALOSframeDothers_group&blend=0&disp=111000&lcd=openstreetmap&vs=c1g1j0h0k0l0u0t0z0r0s0m0f1&d=m)
+- R. Sugimoto, M. Shimada, Y. Morishita, R. Natsuaki, C. Tsutsumi, R. Nakamura, and Y. Yamaguchi, “Interferometric SAR Processing Using Whole ALOS/PALSAR Data Archive for Measuring the Global Surface Deformation,” 2021 7th Asia-Pacific Conference on Synthetic Aperture Radar (APSAR). [https://doi.org/10.1109/APSAR52370.2021.9688342](https://doi.org/10.1109/APSAR52370.2021.9688342)
 - [InSAR Browser](https://gsrt.digiarc.aist.go.jp/insarbrowser/index.html)
 - [PALSAR InSAR Terms of use](https://gsrt.digiarc.aist.go.jp/insarbrowser/doc/terms_of_use_insar_EN.html)
 - [AIST ALOS/PALSAR InSAR Product Format Description](https://gsrt.digiarc.aist.go.jp/insarbrowser/doc/AIST_PALSAR_INSAR_PFFD_EN.pdf)
-- [ALOS frame map](https://yumorishita.github.io/gsimaps/#6/36.670180/139.284668/&base=blank&ls=blank%7Copenstreetmap%7Cgeojson_ALOSframeA343_group%7Cgeojson_ALOSframeAothers_group%7Cgeojson_ALOSframeD343_group%7Cgeojson_ALOSframeDothers_group&blend=0&disp=111000&lcd=openstreetmap&vs=c1g1j0h0k0l0u0t0z0r0s0m0f1&d=m)
 
 ## Installation
 
