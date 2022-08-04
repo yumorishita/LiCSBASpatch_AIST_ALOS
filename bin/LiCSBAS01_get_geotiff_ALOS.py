@@ -202,7 +202,7 @@ def main(argv=None):
             enutif_local = f'{frameID}.geo.{ENU}.tif'
         enutif = f'{sceneID}_{ifgd1}_GUNW_{ENU}.tif'
         url = os.path.join(gunw_url, frameID, ifgd1, enutif)
-        if os.path.exists(enutif_local)::
+        if os.path.exists(enutif_local):
             rc = tools_lib.comp_size_time(url, enutif_local)
             if rc == 0:
                 print('{} already exist. Skip download.'.format(enutif_local), flush=True)
