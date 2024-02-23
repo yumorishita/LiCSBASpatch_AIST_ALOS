@@ -10,9 +10,11 @@ Patch program for LiCSBAS to use AIST ALOS InSAR products (2006-2011)
 
 ## Installation
 
-1. [Install LiCSBAS](https://github.com/yumorishita/LiCSBAS/wiki/1_Installation)
+1. Install [LiCSBAS2](https://github.com/yumorishita/LiCSBAS2) (>=v1.9.0)
 2. `git clone https://github.com/yumorishita/LiCSBASpatch_AIST_ALOS.git`
 3. `source LiCSBASpatch_AIST_ALOS/bashrc_LiCSBAS_ALOS.sh`
+
+* You can also use [LiCSBAS](https://github.com/yumorishita/LiCSBAS) instead of [LiCSBAS2](https://github.com/yumorishita/LiCSBAS2), but LiCSBAS2 is highly recommended because the DEM error correction which is important for ALOS (see [4.2 in Morishita et al., 2023](https://progearthplanetsci.springeropen.com/articles/10.1186/s40645-023-00597-5#Sec24)) is available in LiCSBAS2.
 
 ## How to run LiCSBAS using ALOS InSAR data
 
@@ -20,9 +22,9 @@ First, determine the frame ID of interest (e.g., `410_0690_343`), then
 ```
 mkdir 410_0690_343
 cd 410_0690_343
-copy_batch_LiCSBAS_ALOS.sh
-# Edit batch_LiCSBAS_ALOS.sh if you want
-./batch_LiCSBAS_ALOS.sh
+copy_batch_LiCSBAS2_ALOS.sh
+# Edit batch_LiCSBAS2_ALOS.sh if you want
+./batch_LiCSBAS2_ALOS.sh
 ```
 
 ## ALOS InSAR data coverage
